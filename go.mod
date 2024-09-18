@@ -914,3 +914,5 @@ replace github.com/prometheus/procfs => github.com/prometheus/procfs v0.12.0
 // It's important to remove it asap because in version v0.13.1 there is a fix for Beyla.
 // PR to track it: https://github.com/opencontainers/runc/pull/4397
 replace github.com/cilium/ebpf => github.com/cilium/ebpf v0.12.3
+
+replace github.com/prometheus/snmp_exporter => github.com/WeOps-Lab/snmp_exporter v0.26.1-0.20240913023342-6d737308696e
